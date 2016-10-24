@@ -70,3 +70,46 @@ body, html {
 .header-main .main-list-item a:hover {
 	color: #f80000;
 }
+
+/*BANNER*/
+
+.banner {
+	background-image: url(../images/hero-finance-640x360.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	min-height: 500px;
+	position: relative;
+}
+
+.banner-bg {
+	background-image: url(../images/over-hero-banner.png);
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+.banner-text {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.banner-text-contentButtons {
+	display: flex;
+}
+
+.banner-text-contentButtons button {
+	margin: 0 8px;
+}
+
+.banner-text-contentLinks {
+	display: flex;
+}
+
+.banner-text-contentLinks a {
+	margin: 0 8px;
+}
