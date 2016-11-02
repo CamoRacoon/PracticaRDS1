@@ -332,14 +332,12 @@ body, html {
 				&-link {
 					text-decoration: none;
 					padding: 10px;
-					&:hover {
-						color: red;
-					}
+					color: black;
 					span {
 						font-size: 1.6em;
-						&:before {
-							color: black;
-						}
+					}
+					&:hover {
+						color: red;
 					}
 				}
 			}
